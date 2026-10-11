@@ -1,0 +1,803 @@
+{
+  "users": [
+    {
+      "_id": "user_admin",
+      "name": "System Administrator",
+      "email": "admin@skillexchange.edu",
+      "passwordHash": "$2a$10$C/IjPTxsqtv5jLzTf4T5peBluGzeh49vcUv1nUYE.hBQX2sxMwD5K",
+      "university": "Skill Exchange University",
+      "bio": "Platform safety, skill taxonomy, and community administrator.",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Admin",
+      "role": "admin",
+      "isSuspended": false,
+      "offeredSkills": [],
+      "desiredSkills": [],
+      "hoursTaught": 0,
+      "hoursLearned": 0,
+      "trustScore": 5,
+      "totalReviews": 0,
+      "badges": [
+        "Platform Admin"
+      ],
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "user_aarav",
+      "name": "Aarav Patel",
+      "email": "aarav@skillexchange.edu",
+      "passwordHash": "$2a$10$C/IjPTxsqtv5jLzTf4T5pe66uFsTAkaQcex71u25BB1aYnmmX2QK6",
+      "university": "Tech Institute of Science",
+      "bio": "Computer Science senior passionate about AI, backend APIs, and Python. Looking to upskill in visual and UI/UX design for personal projects.",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Aarav",
+      "role": "student",
+      "isSuspended": false,
+      "offeredSkills": [
+        {
+          "name": "Python",
+          "category": "Programming",
+          "proficiency": "Advanced",
+          "description": "Data analysis, pandas, Flask/FastAPI, script automation."
+        },
+        {
+          "name": "Machine Learning",
+          "category": "Data Science",
+          "proficiency": "Intermediate",
+          "description": "Scikit-learn, classification models, neural network basics."
+        }
+      ],
+      "desiredSkills": [
+        {
+          "name": "UI/UX Design",
+          "category": "Design",
+          "goal": "Design clean mobile and web wireframes"
+        },
+        {
+          "name": "Figma",
+          "category": "Design",
+          "goal": "Master component libraries and interactive prototypes"
+        }
+      ],
+      "availability": {
+        "weekdays": [
+          "Evening (6:00 PM - 8:00 PM)"
+        ],
+        "weekends": [
+          "Morning (10:00 AM - 1:00 PM)"
+        ]
+      },
+      "hoursTaught": 6.5,
+      "hoursLearned": 4,
+      "trustScore": 4.9,
+      "totalReviews": 4,
+      "badges": [
+        "Knowledge Mentor",
+        "Reciprocal Champion",
+        "First Exchange"
+      ],
+      "createdAt": "2026-02-10T10:00:00.000Z"
+    },
+    {
+      "_id": "user_maya",
+      "name": "Maya Chen",
+      "email": "maya@skillexchange.edu",
+      "passwordHash": "$2a$10$C/IjPTxsqtv5jLzTf4T5pe66uFsTAkaQcex71u25BB1aYnmmX2QK6",
+      "university": "School of Design & Arts",
+      "bio": "Graphic and product design major. I love crafting intuitive digital experiences. Excited to learn Python scripting to automate design tokens!",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Maya",
+      "role": "student",
+      "isSuspended": false,
+      "offeredSkills": [
+        {
+          "name": "UI/UX Design",
+          "category": "Design",
+          "proficiency": "Expert",
+          "description": "User personas, heuristic evaluations, responsive layouts."
+        },
+        {
+          "name": "Figma",
+          "category": "Design",
+          "proficiency": "Advanced",
+          "description": "Auto-layout, responsive tokens, interactive high-fidelity mocks."
+        },
+        {
+          "name": "Graphic Design",
+          "category": "Creative",
+          "proficiency": "Advanced",
+          "description": "Brand identity, typography, Photoshop & Illustrator."
+        }
+      ],
+      "desiredSkills": [
+        {
+          "name": "Python",
+          "category": "Programming",
+          "goal": "Learn syntax and scripting for data processing"
+        },
+        {
+          "name": "Web Development",
+          "category": "Programming",
+          "goal": "HTML/CSS/JS fundamentals for creative coders"
+        }
+      ],
+      "availability": {
+        "weekdays": [
+          "Evening (6:00 PM - 8:00 PM)"
+        ],
+        "weekends": [
+          "Afternoon (2:00 PM - 5:00 PM)"
+        ]
+      },
+      "hoursTaught": 8,
+      "hoursLearned": 5.5,
+      "trustScore": 5,
+      "totalReviews": 6,
+      "badges": [
+        "Master Educator",
+        "5-Star Peer",
+        "Reciprocal Champion"
+      ],
+      "createdAt": "2026-02-12T14:30:00.000Z"
+    },
+    {
+      "_id": "user_liam",
+      "name": "Liam Smith",
+      "email": "liam@skillexchange.edu",
+      "passwordHash": "$2a$10$C/IjPTxsqtv5jLzTf4T5pe66uFsTAkaQcex71u25BB1aYnmmX2QK6",
+      "university": "Metro Engineering College",
+      "bio": "Full-stack developer building modern React apps. Planning to study abroad in Spain next semester and eager to practice conversational Spanish!",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Liam",
+      "role": "student",
+      "isSuspended": false,
+      "offeredSkills": [
+        {
+          "name": "React.js",
+          "category": "Programming",
+          "proficiency": "Advanced",
+          "description": "Hooks, state management, Tailwind, full-stack SPAs."
+        },
+        {
+          "name": "JavaScript",
+          "category": "Programming",
+          "proficiency": "Advanced",
+          "description": "ES6+, async/await, DOM manipulation, clean code."
+        },
+        {
+          "name": "Node.js",
+          "category": "Backend",
+          "proficiency": "Intermediate",
+          "description": "Express REST APIs, middleware, authentication."
+        }
+      ],
+      "desiredSkills": [
+        {
+          "name": "Spanish",
+          "category": "Languages",
+          "goal": "Conversational fluency and travel phrases"
+        },
+        {
+          "name": "French",
+          "category": "Languages",
+          "goal": "Pronunciation and beginner vocabulary"
+        }
+      ],
+      "availability": {
+        "weekdays": [
+          "Afternoon (4:00 PM - 6:00 PM)"
+        ],
+        "weekends": [
+          "Morning (10:00 AM - 1:00 PM)"
+        ]
+      },
+      "hoursTaught": 5,
+      "hoursLearned": 3,
+      "trustScore": 4.8,
+      "totalReviews": 3,
+      "badges": [
+        "Knowledge Mentor",
+        "First Exchange"
+      ],
+      "createdAt": "2026-02-15T09:15:00.000Z"
+    },
+    {
+      "_id": "user_sofia",
+      "name": "Sofia Rodriguez",
+      "email": "sofia@skillexchange.edu",
+      "passwordHash": "$2a$10$C/IjPTxsqtv5jLzTf4T5pe66uFsTAkaQcex71u25BB1aYnmmX2QK6",
+      "university": "Department of Modern Languages",
+      "bio": "Native Spanish speaker and literature student. Wanting to learn React and modern web development to build an online interactive digital library.",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Sofia",
+      "role": "student",
+      "isSuspended": false,
+      "offeredSkills": [
+        {
+          "name": "Spanish",
+          "category": "Languages",
+          "proficiency": "Expert",
+          "description": "Native conversation, grammar, business & cultural contexts."
+        },
+        {
+          "name": "Creative Writing",
+          "category": "Writing",
+          "proficiency": "Advanced",
+          "description": "Storytelling, essay structure, editing."
+        }
+      ],
+      "desiredSkills": [
+        {
+          "name": "React.js",
+          "category": "Programming",
+          "goal": "Building personal portfolio and interactive reading website"
+        },
+        {
+          "name": "JavaScript",
+          "category": "Programming",
+          "goal": "Fundamental web programming"
+        }
+      ],
+      "availability": {
+        "weekdays": [
+          "Afternoon (4:00 PM - 6:00 PM)"
+        ],
+        "weekends": [
+          "Morning (10:00 AM - 1:00 PM)"
+        ]
+      },
+      "hoursTaught": 7,
+      "hoursLearned": 6,
+      "trustScore": 5,
+      "totalReviews": 5,
+      "badges": [
+        "Knowledge Mentor",
+        "5-Star Peer",
+        "Reciprocal Champion"
+      ],
+      "createdAt": "2026-02-18T11:00:00.000Z"
+    },
+    {
+      "_id": "user_elena",
+      "name": "Elena Rostova",
+      "email": "elena@skillexchange.edu",
+      "passwordHash": "$2a$10$C/IjPTxsqtv5jLzTf4T5pe66uFsTAkaQcex71u25BB1aYnmmX2QK6",
+      "university": "Polytechnic Institute",
+      "bio": "Competitive programmer and C++ enthusiast. Preparing for conference presentations and seeking guidance on public speaking and stage presence.",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Elena",
+      "role": "student",
+      "isSuspended": false,
+      "offeredSkills": [
+        {
+          "name": "Data Structures & Algorithms",
+          "category": "Programming",
+          "proficiency": "Expert",
+          "description": "Trees, graphs, dynamic programming, time-complexity analysis."
+        },
+        {
+          "name": "C++",
+          "category": "Programming",
+          "proficiency": "Advanced",
+          "description": "STL, memory management, low-level optimization."
+        }
+      ],
+      "desiredSkills": [
+        {
+          "name": "Public Speaking",
+          "category": "Communication",
+          "goal": "Overcome stage anxiety and structure speech slides"
+        }
+      ],
+      "availability": {
+        "weekdays": [
+          "Evening (6:00 PM - 8:00 PM)"
+        ],
+        "weekends": [
+          "Weekend Anytime"
+        ]
+      },
+      "hoursTaught": 4,
+      "hoursLearned": 2,
+      "trustScore": 4.9,
+      "totalReviews": 2,
+      "badges": [
+        "Knowledge Mentor",
+        "First Exchange"
+      ],
+      "createdAt": "2026-02-20T16:45:00.000Z"
+    },
+    {
+      "_id": "user_marcus",
+      "name": "Marcus Johnson",
+      "email": "marcus@skillexchange.edu",
+      "passwordHash": "$2a$10$C/IjPTxsqtv5jLzTf4T5pe66uFsTAkaQcex71u25BB1aYnmmX2QK6",
+      "university": "School of Communications",
+      "bio": "Collegiate debate captain. I help students structure persuasive arguments and speak with confidence. Wanting to learn Algorithms for tech interviews.",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Marcus",
+      "role": "student",
+      "isSuspended": false,
+      "offeredSkills": [
+        {
+          "name": "Public Speaking",
+          "category": "Communication",
+          "proficiency": "Expert",
+          "description": "Vocal modulation, body language, pitching, debate rebuttals."
+        }
+      ],
+      "desiredSkills": [
+        {
+          "name": "Data Structures & Algorithms",
+          "category": "Programming",
+          "goal": "Prepare for technical internship rounds"
+        },
+        {
+          "name": "Python",
+          "category": "Programming",
+          "goal": "LeetCode practice"
+        }
+      ],
+      "availability": {
+        "weekdays": [
+          "Evening (6:00 PM - 8:00 PM)"
+        ],
+        "weekends": [
+          "Weekend Anytime"
+        ]
+      },
+      "hoursTaught": 9,
+      "hoursLearned": 4.5,
+      "trustScore": 4.9,
+      "totalReviews": 4,
+      "badges": [
+        "Master Educator",
+        "Reciprocal Champion"
+      ],
+      "createdAt": "2026-02-22T08:30:00.000Z"
+    },
+    {
+      "_id": "id_hu1zzq0mv2m74k6",
+      "name": "wertyuiop",
+      "email": "wsedtgyuiop@anurag.edu.in",
+      "passwordHash": "$2a$10$NiBVNy6xUXXrgn/iYEldruhkl47NBUDcEdDenQJjGNXDj6t9IJLc6",
+      "university": "ASDFGHJKL;'",
+      "bio": "",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=wertyuiop",
+      "offeredSkills": [
+        {
+          "name": "SDFGHJKL;",
+          "category": "General",
+          "proficiency": "Intermediate",
+          "description": "Can guide peer through fundamentals"
+        }
+      ],
+      "desiredSkills": [
+        {
+          "name": "WERTYUIOP",
+          "category": "General",
+          "goal": "Learn and collaborate"
+        }
+      ],
+      "availability": {},
+      "hoursTaught": 0,
+      "hoursLearned": 0,
+      "trustScore": 5,
+      "totalReviews": 0,
+      "role": "student",
+      "isSuspended": false,
+      "badges": [
+        "New Explorer"
+      ],
+      "createdAt": "2026-10-10T16:34:38.934Z",
+      "updatedAt": "2026-10-10T16:34:38.934Z"
+    },
+    {
+      "_id": "id_don93limv3lnmdi",
+      "name": "vishnu",
+      "email": "vishnuvardhanyt@gmail.com",
+      "passwordHash": "$2a$10$xKrwwahjJpQZD0jnVgV2QexkmnZKQ4Zlxx5RfCeyXmbE8goEt4ytu",
+      "university": "anurag university",
+      "bio": "",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=vishnu",
+      "offeredSkills": [
+        {
+          "name": "reactjs",
+          "category": "General",
+          "proficiency": "Intermediate",
+          "description": "Can guide peer through fundamentals"
+        }
+      ],
+      "desiredSkills": [
+        {
+          "name": "python",
+          "category": "General",
+          "goal": "Learn and collaborate"
+        }
+      ],
+      "availability": {},
+      "hoursTaught": 0,
+      "hoursLearned": 0,
+      "trustScore": 5,
+      "totalReviews": 0,
+      "role": "student",
+      "isSuspended": false,
+      "badges": [
+        "New Explorer"
+      ],
+      "createdAt": "2026-10-11T09:07:15.079Z",
+      "updatedAt": "2026-10-11T09:07:15.079Z"
+    }
+  ],
+  "requests": [
+    {
+      "_id": "req_1",
+      "senderId": "user_aarav",
+      "receiverId": "user_maya",
+      "requestedSkill": "Figma",
+      "offeredSkill": "Python",
+      "message": "Hey Maya! I saw you want to learn Python scripting. I would love to teach you Python in exchange for Figma auto-layout tips!",
+      "proposedDate": "2026-10-15T18:00:00.000Z",
+      "status": "accepted",
+      "createdAt": "2026-10-01T12:00:00.000Z"
+    },
+    {
+      "_id": "req_2",
+      "senderId": "user_marcus",
+      "receiverId": "user_elena",
+      "requestedSkill": "Data Structures & Algorithms",
+      "offeredSkill": "Public Speaking",
+      "message": "Hi Elena! I can help you hone your tech conference presentation if you can guide me through binary search and graph algorithms.",
+      "proposedDate": "2026-10-16T19:00:00.000Z",
+      "status": "pending",
+      "createdAt": "2026-10-08T15:20:00.000Z"
+    },
+    {
+      "_id": "id_qon43g5mv2m7o8q",
+      "senderId": "id_hu1zzq0mv2m74k6",
+      "receiverId": "user_liam",
+      "requestedSkill": "Node.js",
+      "offeredSkill": "Open to reciprocate",
+      "message": "Hi Liam Smith! I would love to connect and exchange knowledge regarding Node.js.",
+      "proposedDate": "2026-10-12T11:05:00.000Z",
+      "status": "pending",
+      "createdAt": "2026-10-10T16:35:04.442Z",
+      "updatedAt": "2026-10-10T16:35:04.442Z"
+    },
+    {
+      "_id": "id_10f6nc9mv2m7v08",
+      "senderId": "id_hu1zzq0mv2m74k6",
+      "receiverId": "user_liam",
+      "requestedSkill": "Node.js",
+      "offeredSkill": "Open to reciprocate",
+      "message": "Hi Liam Smith! I would love to connect and exchange knowledge regarding Node.js.",
+      "proposedDate": "2026-10-12T11:05:00.000Z",
+      "status": "pending",
+      "createdAt": "2026-10-10T16:35:13.208Z",
+      "updatedAt": "2026-10-10T16:35:13.208Z"
+    },
+    {
+      "_id": "id_ezae7ksmv2m8avt",
+      "senderId": "user_maya",
+      "receiverId": "user_aarav",
+      "requestedSkill": "Python",
+      "offeredSkill": "UI/UX Design",
+      "message": "Hi Aarav Patel! I would love to connect and exchange knowledge regarding Python.",
+      "proposedDate": "2026-10-12T11:05:00.000Z",
+      "status": "accepted",
+      "createdAt": "2026-10-10T16:35:33.785Z",
+      "updatedAt": "2026-10-10T16:58:31.684Z"
+    },
+    {
+      "_id": "id_iuit7r9mv2n1koc",
+      "senderId": "user_aarav",
+      "receiverId": "user_maya",
+      "requestedSkill": "UI/UX Design",
+      "offeredSkill": "Python",
+      "message": "Hi Maya Chen! I would love to connect and exchange knowledge regarding UI/UX Design.",
+      "proposedDate": "2026-10-12T11:28:00.000Z",
+      "status": "pending",
+      "createdAt": "2026-10-10T16:58:19.500Z",
+      "updatedAt": "2026-10-10T16:58:19.500Z"
+    },
+    {
+      "_id": "id_bkkdbp7mv2n6jih",
+      "senderId": "user_maya",
+      "receiverId": "user_sofia",
+      "requestedSkill": "Spanish",
+      "offeredSkill": "Open to reciprocate",
+      "message": "Hi Sofia Rodriguez! I would love to connect and exchange knowledge regarding Spanish.",
+      "proposedDate": "2026-10-12T11:32:00.000Z",
+      "status": "pending",
+      "createdAt": "2026-10-10T17:02:11.273Z",
+      "updatedAt": "2026-10-10T17:02:11.273Z"
+    },
+    {
+      "_id": "id_0371bgumv3lohlr",
+      "senderId": "id_don93limv3lnmdi",
+      "receiverId": "user_aarav",
+      "requestedSkill": "Python",
+      "offeredSkill": "reactjs",
+      "message": "Hi Aarav Patel! I would love to connect and exchange knowledge regarding Python.",
+      "proposedDate": "2026-10-13T03:37:00.000Z",
+      "status": "pending",
+      "createdAt": "2026-10-11T09:07:55.551Z",
+      "updatedAt": "2026-10-11T09:07:55.551Z"
+    },
+    {
+      "_id": "id_q6g3s1fmv3lpu5z",
+      "senderId": "id_don93limv3lnmdi",
+      "receiverId": "user_aarav",
+      "requestedSkill": "Python",
+      "offeredSkill": "Open to reciprocate",
+      "message": "Hi Aarav Patel! I would love to connect and exchange knowledge regarding Python.",
+      "proposedDate": "2026-10-13T03:38:00.000Z",
+      "status": "pending",
+      "createdAt": "2026-10-11T09:08:58.487Z",
+      "updatedAt": "2026-10-11T09:08:58.487Z"
+    },
+    {
+      "_id": "id_qgqrplymv3lqazy",
+      "senderId": "id_don93limv3lnmdi",
+      "receiverId": "user_maya",
+      "requestedSkill": "UI/UX Design",
+      "offeredSkill": "Open to reciprocate",
+      "message": "Hi Maya Chen! I would love to connect and exchange knowledge regarding UI/UX Design.",
+      "proposedDate": "2026-10-13T03:39:00.000Z",
+      "status": "accepted",
+      "createdAt": "2026-10-11T09:09:20.302Z",
+      "updatedAt": "2026-10-11T09:10:36.026Z"
+    }
+  ],
+  "sessions": [
+    {
+      "_id": "sess_1",
+      "requestId": "req_1",
+      "mentorId": "user_maya",
+      "learnerId": "user_aarav",
+      "skillName": "Figma Design System & Auto-Layout",
+      "reciprocalSkill": "Python Automation",
+      "scheduledStartTime": "2026-10-05T18:00:00.000Z",
+      "durationMinutes": 60,
+      "meetingUrl": "https://meet.jit.si/skill-swap-figma-aarav-maya",
+      "status": "completed",
+      "mentorConfirmed": true,
+      "learnerConfirmed": true,
+      "createdAt": "2026-10-01T12:05:00.000Z"
+    },
+    {
+      "_id": "sess_2",
+      "requestId": "req_1",
+      "mentorId": "user_aarav",
+      "learnerId": "user_maya",
+      "skillName": "Python for Design Automation",
+      "reciprocalSkill": "Figma",
+      "scheduledStartTime": "2026-10-07T18:00:00.000Z",
+      "durationMinutes": 60,
+      "meetingUrl": "https://meet.jit.si/skill-swap-python-maya-aarav",
+      "status": "completed",
+      "mentorConfirmed": true,
+      "learnerConfirmed": true,
+      "createdAt": "2026-10-01T12:05:00.000Z"
+    },
+    {
+      "_id": "sess_3",
+      "requestId": "req_custom_1",
+      "mentorId": "user_sofia",
+      "learnerId": "user_liam",
+      "skillName": "Conversational Spanish (Intermediate)",
+      "reciprocalSkill": "React.js",
+      "scheduledStartTime": "2026-10-14T16:30:00.000Z",
+      "durationMinutes": 60,
+      "meetingUrl": "https://meet.jit.si/skill-swap-spanish-liam-sofia",
+      "status": "scheduled",
+      "mentorConfirmed": false,
+      "learnerConfirmed": false,
+      "createdAt": "2026-10-09T09:00:00.000Z"
+    },
+    {
+      "_id": "id_b8p9g0ymv2n1u2u",
+      "requestId": "id_ezae7ksmv2m8avt",
+      "mentorId": "user_aarav",
+      "learnerId": "user_maya",
+      "skillName": "Python",
+      "reciprocalSkill": "UI/UX Design",
+      "scheduledStartTime": "2026-10-12T11:05:00.000Z",
+      "durationMinutes": 60,
+      "meetingUrl": "https://meet.jit.si/skill-swap-d3y5ea",
+      "status": "scheduled",
+      "mentorConfirmed": false,
+      "learnerConfirmed": false,
+      "createdAt": "2026-10-10T16:58:31.686Z",
+      "updatedAt": "2026-10-10T16:58:31.686Z"
+    },
+    {
+      "_id": "id_lqj8vucmv3lrxff",
+      "requestId": "id_qgqrplymv3lqazy",
+      "mentorId": "user_maya",
+      "learnerId": "id_don93limv3lnmdi",
+      "skillName": "UI/UX Design",
+      "reciprocalSkill": "Open to reciprocate",
+      "scheduledStartTime": "2026-10-13T03:39:00.000Z",
+      "durationMinutes": 60,
+      "meetingUrl": "https://meet.jit.si/skill-swap-udf73i",
+      "status": "scheduled",
+      "mentorConfirmed": false,
+      "learnerConfirmed": false,
+      "createdAt": "2026-10-11T09:10:36.027Z",
+      "updatedAt": "2026-10-11T09:10:36.027Z"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "rev_1",
+      "sessionId": "sess_1",
+      "reviewerId": "user_aarav",
+      "reviewerName": "Aarav Patel",
+      "revieweeId": "user_maya",
+      "skillName": "Figma Design System & Auto-Layout",
+      "rating": 5,
+      "comment": "Maya was incredible! She broke down Figma auto-layout and nested components with great real-world examples. 10/10 mentor!",
+      "aspects": [
+        "Clear Explanations",
+        "Super Patient",
+        "Inspiring Examples"
+      ],
+      "createdAt": "2026-10-05T19:15:00.000Z"
+    },
+    {
+      "_id": "rev_2",
+      "sessionId": "sess_2",
+      "reviewerId": "user_maya",
+      "reviewerName": "Maya Chen",
+      "revieweeId": "user_aarav",
+      "skillName": "Python for Design Automation",
+      "rating": 5,
+      "comment": "Aarav made Python feel so approachable. We wrote a quick script to organize my SVG assets in just one hour.",
+      "aspects": [
+        "Practical Focus",
+        "Great Problem Solver",
+        "Well Prepared"
+      ],
+      "createdAt": "2026-10-07T19:20:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif_1",
+      "userId": "user_aarav",
+      "title": "Session Completed!",
+      "message": "Your Python session with Maya Chen was completed. 1 hour credited to your teaching record.",
+      "type": "session",
+      "link": "/sessions",
+      "read": true,
+      "createdAt": "2026-10-07T19:00:00.000Z"
+    },
+    {
+      "_id": "notif_2",
+      "userId": "user_elena",
+      "title": "New Skill Exchange Request! 🎉",
+      "message": "Marcus Johnson sent you a request for Data Structures & Algorithms.",
+      "type": "request",
+      "link": "/requests",
+      "read": false,
+      "createdAt": "2026-10-08T15:20:00.000Z"
+    },
+    {
+      "_id": "id_povp0kkmv2m7o8r",
+      "userId": "user_liam",
+      "title": "New Skill Exchange Request!",
+      "message": "wertyuiop sent you a request to learn Node.js.",
+      "type": "request",
+      "link": "/requests",
+      "read": false,
+      "createdAt": "2026-10-10T16:35:04.443Z",
+      "updatedAt": "2026-10-10T16:35:04.443Z"
+    },
+    {
+      "_id": "id_ywriaztmv2m7v09",
+      "userId": "user_liam",
+      "title": "New Skill Exchange Request!",
+      "message": "wertyuiop sent you a request to learn Node.js.",
+      "type": "request",
+      "link": "/requests",
+      "read": false,
+      "createdAt": "2026-10-10T16:35:13.209Z",
+      "updatedAt": "2026-10-10T16:35:13.209Z"
+    },
+    {
+      "_id": "id_aoe4g39mv2m8avv",
+      "userId": "user_aarav",
+      "title": "New Skill Exchange Request!",
+      "message": "Maya Chen sent you a request to learn Python.",
+      "type": "request",
+      "link": "/requests",
+      "read": true,
+      "createdAt": "2026-10-10T16:35:33.787Z",
+      "updatedAt": "2026-10-10T16:58:30.109Z"
+    },
+    {
+      "_id": "id_gh5poy9mv2n1koe",
+      "userId": "user_maya",
+      "title": "New Skill Exchange Request!",
+      "message": "Aarav Patel sent you a request to learn UI/UX Design.",
+      "type": "request",
+      "link": "/requests",
+      "read": true,
+      "createdAt": "2026-10-10T16:58:19.502Z",
+      "updatedAt": "2026-10-10T17:00:36.666Z"
+    },
+    {
+      "_id": "id_0sb4ec4mv2n1u2v",
+      "userId": "user_maya",
+      "title": "Skill Request Accepted! 🎉",
+      "message": "Aarav Patel accepted your request to learn Python. Your session has been scheduled!",
+      "type": "session",
+      "link": "/sessions",
+      "read": true,
+      "createdAt": "2026-10-10T16:58:31.687Z",
+      "updatedAt": "2026-10-10T17:00:36.668Z"
+    },
+    {
+      "_id": "id_anmtl9emv2n6jii",
+      "userId": "user_sofia",
+      "title": "New Skill Exchange Request!",
+      "message": "Maya Chen sent you a request to learn Spanish.",
+      "type": "request",
+      "link": "/requests",
+      "read": false,
+      "createdAt": "2026-10-10T17:02:11.274Z",
+      "updatedAt": "2026-10-10T17:02:11.274Z"
+    },
+    {
+      "_id": "id_chfulr7mv3lohlt",
+      "userId": "user_aarav",
+      "title": "New Skill Exchange Request!",
+      "message": "vishnu sent you a request to learn Python.",
+      "type": "request",
+      "link": "/requests",
+      "read": false,
+      "createdAt": "2026-10-11T09:07:55.553Z",
+      "updatedAt": "2026-10-11T09:07:55.553Z"
+    },
+    {
+      "_id": "id_awpikjkmv3lpu60",
+      "userId": "user_aarav",
+      "title": "New Skill Exchange Request!",
+      "message": "vishnu sent you a request to learn Python.",
+      "type": "request",
+      "link": "/requests",
+      "read": false,
+      "createdAt": "2026-10-11T09:08:58.488Z",
+      "updatedAt": "2026-10-11T09:08:58.488Z"
+    },
+    {
+      "_id": "id_e90v7uumv3lqazz",
+      "userId": "user_maya",
+      "title": "New Skill Exchange Request!",
+      "message": "vishnu sent you a request to learn UI/UX Design.",
+      "type": "request",
+      "link": "/requests",
+      "read": true,
+      "createdAt": "2026-10-11T09:09:20.303Z",
+      "updatedAt": "2026-10-11T09:10:33.570Z"
+    },
+    {
+      "_id": "id_1x1f617mv3lrxfg",
+      "userId": "id_don93limv3lnmdi",
+      "title": "Skill Request Accepted! 🎉",
+      "message": "Maya Chen accepted your request to learn UI/UX Design. Your session has been scheduled!",
+      "type": "session",
+      "link": "/sessions",
+      "read": false,
+      "createdAt": "2026-10-11T09:10:36.028Z",
+      "updatedAt": "2026-10-11T09:10:36.028Z"
+    }
+  ],
+  "reports": [
+    {
+      "_id": "rep_1",
+      "reporterId": "user_marcus",
+      "reporterName": "Marcus Johnson",
+      "targetUserId": "user_spam_test",
+      "sessionId": "",
+      "reason": "Spam promotional messages",
+      "details": "Sent unsolicited crypto links in request message.",
+      "status": "pending",
+      "createdAt": "2026-10-09T11:00:00.000Z"
+    }
+  ]
+}

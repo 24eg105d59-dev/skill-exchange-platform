@@ -1,0 +1,13 @@
+{
+  "name": "skill-exchange-platform",
+  "version": "1.0.0",
+  "description": "Peer-to-Peer Student Skill Exchange Platform",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev"
+  }
+}
